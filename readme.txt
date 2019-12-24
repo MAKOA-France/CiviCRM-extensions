@@ -1,2 +1,2 @@
-Ce repertoire est pour stocker les developpement d'extension civicrm
+Ce repertoire est pour stocker les developpements d'extension civicrm
 
