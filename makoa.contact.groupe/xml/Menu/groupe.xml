@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/mes-groupes</path>
+    <page_callback>CRM_Groupe_Page_MesGroupes</page_callback>
+    <title>MesGroupes</title>
+    <is_public>true</is_public>
+    <access_callback>1</access_callback>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/detail-groupe</path>
+    <page_callback>CRM_Groupe_Page_DetailGroupe</page_callback>
+    <title>DetailGroupe</title>
+    <is_public>true</is_public>
+    <access_callback>1</access_callback>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>

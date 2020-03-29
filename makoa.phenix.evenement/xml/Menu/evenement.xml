@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/info-event</path>
+    <page_callback>CRM_Evenement_Page_InfoEvent</page_callback>
+    <title>InfoEvent</title>
+    <is_public>true</is_public>
+    <access_callback>1</access_callback>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/participation-event</path>
+    <page_callback>CRM_Evenement_Form_ParticipationEvent</page_callback>
+    <title>ParticipationEvent</title>
+    <is_public>true</is_public>
+    <access_callback>1</access_callback>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+
+  <item>
+    <path>civicrm/participantconfirm</path>
+    <page_callback>CRM_Evenement_Form_ParticipantConfirm</page_callback>
+    <title>ParticipantConfirm</title>
+    <is_public>true</is_public>
+    <access_callback>1</access_callback>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+
+</menu>
