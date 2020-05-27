@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <extension key="koama-event-select-groups" type="module">
   <file>koama_event_select_groups</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
+  <name>MAKOA EVENT SELECT GROUPS</name>
+  <description>
+  </description>
   <license>AGPL-3.0</license>
   <maintainer>
-    <author>ME</author>
-    <email>FIXME</email>
+    <author>Dev makoa</author>
+    <email>contact@makoa.fr</email>
   </maintainer>
   <urls>
     <url desc="Main Extension Page">http://FIXME</url>
@@ -20,7 +21,8 @@
   <compatibility>
     <ver>5.0</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments>Permet dans la page evenement de rechercher, d'afficher les différents groups liés à l'évènement.
+  Faut juste changer l'id du "custom_68" select comportant les groups dans la fonction koama_event_select_groups_civicrm_fieldOptions du fichier koama_event_select_groups.php</comments>
   <civix>
     <namespace>CRM/KoamaEventSelectGroups</namespace>
   </civix>

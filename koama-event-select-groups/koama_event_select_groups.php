@@ -147,7 +147,8 @@ function koama_event_select_groups_civicrm_themes(&$themes) {
     Function ajoutée par Makoa le 6/10/19 par Usha & Antoine 
 */
 function koama_event_select_groups_civicrm_fieldOptions($entity, $field, &$options, $params) {
-    if ($entity == 'Event' && $field == 'custom_10' ) {
+	// print_r ( 'field***' + $field);
+    if ($entity == 'Event' && $field == 'custom_68' ) {
         //recupere l'id du groupe commissions
         $parents = civicrm_api3('Group','get',array('title'=>'Commissions'));
         $idParents = $parents['id'];
